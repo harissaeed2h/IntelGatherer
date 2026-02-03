@@ -1,0 +1,15 @@
+TIKTOK:
+	Accounts only : {include @ and exclude [videos, discover]}
+	Videos only   : {}
+
+INSTAGRAM:
+	Accounts only : {}
+	Posts only    : {}
+	Videos only   : {}
+
+
+YOUTUBE:
+	Accounts only : {}
+	Posts only    : {}
+	Shorts only   : {}
+	Long Videos only : {}

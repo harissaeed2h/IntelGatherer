@@ -1,0 +1,14 @@
+TIKTOK:
+	Accounts only : {include: [@], exclude: [/video/, /v/, /photo/, /discover/, /tag/]}
+	Videos only   : {include: [/video/, /v/], exclude: [@ (without /video/)]}
+
+INSTAGRAM:
+	Accounts only : {include: [instagram.com/], exclude: [/p/, /reel/, /stories/, /explore/, /tags/]}
+	Posts only    : {include: [/p/], exclude: [/reel/, /stories/]}
+	Videos only   : {include: [/reel/], exclude: [/p/]}
+
+YOUTUBE:
+	Accounts only : {include: [/@, /channel/], exclude: [/watch, /shorts/, /playlist/, /live/]}
+	Posts only    : {include: [/community/], exclude: [/watch, /shorts/]}
+	Shorts only   : {include: [/shorts/], exclude: [/watch?v=]}
+	Long Videos only : {include: [/watch?v=], exclude: [/shorts/]}
